@@ -1,0 +1,1188 @@
+fileFormatVersion: 2
+guid: d894241be7cf7e5469d7861cdb124821
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9074623290208201965
+    second: Ludum Dare Graphics_0
+  - first:
+      213: -1707561814790993627
+    second: Ludum Dare Graphics_1
+  - first:
+      213: 6118678170572304130
+    second: Ludum Dare Graphics_2
+  - first:
+      213: 6396428091813030298
+    second: Ludum Dare Graphics_3
+  - first:
+      213: 3567943070148108834
+    second: Ludum Dare Graphics_4
+  - first:
+      213: -6170000043600394221
+    second: Ludum Dare Graphics_5
+  - first:
+      213: 26802060139057639
+    second: Ludum Dare Graphics_6
+  - first:
+      213: 8322701703211148827
+    second: Ludum Dare Graphics_7
+  - first:
+      213: -7852088694026309025
+    second: Ludum Dare Graphics_8
+  - first:
+      213: -4097355314751484911
+    second: Ludum Dare Graphics_9
+  - first:
+      213: -5276321371368698054
+    second: Ludum Dare Graphics_10
+  - first:
+      213: 2847128064906700999
+    second: Ludum Dare Graphics_11
+  - first:
+      213: -8737937860481854593
+    second: Ludum Dare Graphics_12
+  - first:
+      213: 6881000371925143825
+    second: Ludum Dare Graphics_13
+  - first:
+      213: -1825118034155666184
+    second: Ludum Dare Graphics_14
+  - first:
+      213: 2164223922834764876
+    second: Ludum Dare Graphics_15
+  - first:
+      213: 9191768488287494433
+    second: Ludum Dare Graphics_16
+  - first:
+      213: 6974147337422331235
+    second: Ludum Dare Graphics_17
+  - first:
+      213: 6893302725373798446
+    second: Ludum Dare Graphics_18
+  - first:
+      213: -3621744487934183821
+    second: Ludum Dare Graphics_19
+  - first:
+      213: -3510771226340224188
+    second: Ludum Dare Graphics_20
+  - first:
+      213: 3928568899160372029
+    second: Ludum Dare Graphics_21
+  - first:
+      213: -2097563302975548959
+    second: Ludum Dare Graphics_22
+  - first:
+      213: 6072390614782578807
+    second: Ludum Dare Graphics_23
+  - first:
+      213: 7774192598397308940
+    second: Ludum Dare Graphics_24
+  - first:
+      213: -1787212981226829575
+    second: Ludum Dare Graphics_25
+  - first:
+      213: -3380474349092991758
+    second: Ludum Dare Graphics_26
+  - first:
+      213: 877106007018590676
+    second: Ludum Dare Graphics_27
+  - first:
+      213: 6631963755826061402
+    second: Ludum Dare Graphics_28
+  - first:
+      213: 5730311769448320417
+    second: Ludum Dare Graphics_29
+  - first:
+      213: 6617915737513781264
+    second: Ludum Dare Graphics_30
+  - first:
+      213: -2872272308995209779
+    second: Ludum Dare Graphics_31
+  - first:
+      213: 3854407787191400258
+    second: Ludum Dare Graphics_32
+  - first:
+      213: 6014221567386357466
+    second: Ludum Dare Graphics_33
+  - first:
+      213: 133431616009532374
+    second: Ludum Dare Graphics_34
+  - first:
+      213: -7342901237097405018
+    second: Ludum Dare Graphics_35
+  - first:
+      213: 7422272320086666936
+    second: Ludum Dare Graphics_36
+  - first:
+      213: -2697714964390717445
+    second: Ludum Dare Graphics_37
+  - first:
+      213: -501236379114690234
+    second: Ludum Dare Graphics_38
+  - first:
+      213: 1623725386440690434
+    second: Ludum Dare Graphics_39
+  - first:
+      213: -1018728151744755501
+    second: Ludum Dare Graphics_40
+  - first:
+      213: -8561368591462181604
+    second: Ludum Dare Graphics_41
+  - first:
+      213: 525109390890264235
+    second: Ludum Dare Graphics_42
+  - first:
+      213: 4485535469781133202
+    second: Ludum Dare Graphics_43
+  - first:
+      213: -626935060792271128
+    second: Ludum Dare Graphics_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 120
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_0
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 2378
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31357ac6236701280800000000000000
+      internalID: -9074623290208201965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 2237
+        width: 55
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5298c5593958d48e0800000000000000
+      internalID: -1707561814790993627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2259
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f26e3c069e9e450800000000000000
+      internalID: 6118678170572304130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2252
+        width: 50
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9968d3b57da4c850800000000000000
+      internalID: 6396428091813030298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 2275
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222aefa8151e38130800000000000000
+      internalID: 3567943070148108834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_5
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 2274
+        width: 99
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318cd0186a1cf5aa0800000000000000
+      internalID: -6170000043600394221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_6
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 2206
+        width: 159
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e156d9e4583f5000800000000000000
+      internalID: 26802060139057639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_7
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2209
+        width: 164
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16607f7a1d208370800000000000000
+      internalID: 8322701703211148827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_8
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2181
+        width: 171
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5273b75fe6c70390800000000000000
+      internalID: -7852088694026309025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_9
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 2178
+        width: 177
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ccda9cc054327c0800000000000000
+      internalID: -4097355314751484911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2210
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f44cafaadb6c6b0800000000000000
+      internalID: -5276321371368698054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2126
+        width: 60
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c82fcae3e7038720800000000000000
+      internalID: 2847128064906700999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_12
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2148
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73da8cbfcb9cb680800000000000000
+      internalID: -8737937860481854593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_13
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2206
+        width: 83
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111dde391693e7f50800000000000000
+      internalID: 6881000371925143825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2184
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f40efc51d0eba6e0800000000000000
+      internalID: -1825118034155666184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_15
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 2202
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44f7f6f03ed80e10800000000000000
+      internalID: 2164223922834764876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2127
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12161027db8bf8f70800000000000000
+      internalID: 9191768488287494433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_17
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2156
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d5b428d0629c060800000000000000
+      internalID: 6974147337422331235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_18
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2130
+        width: 86
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2823237e4ee9af50800000000000000
+      internalID: 6893302725373798446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1855
+        width: 198
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3763479b39afcbdc0800000000000000
+      internalID: -3621744487934183821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_20
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2057
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4431456ab2c374fc0800000000000000
+      internalID: -3510771226340224188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_21
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 2056
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33f91e6994158630800000000000000
+      internalID: 3928568899160372029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_22
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 2057
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e15f301a45f3e2e0800000000000000
+      internalID: -2097563302975548959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_23
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 2031
+        width: 96
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770188b5717754450800000000000000
+      internalID: 6072390614782578807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_24
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 2032
+        width: 98
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0051f29afa73eb60800000000000000
+      internalID: 7774192598397308940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_25
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 2035
+        width: 98
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8020c334b8237e0800000000000000
+      internalID: -1787212981226829575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1860
+        width: 212
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc0ef17d742611d0800000000000000
+      internalID: -3380474349092991758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_27
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 1996
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d154ba244b1c2c00800000000000000
+      internalID: 877106007018590676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_28
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1941
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a502745f5e7790c50800000000000000
+      internalID: 6631963755826061402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_29
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1948
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad053e9138268f40800000000000000
+      internalID: 5730311769448320417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_30
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1946
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018e9ffcc4f87db50800000000000000
+      internalID: 6617915737513781264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_31
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1918
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5462c8d83a328d0800000000000000
+      internalID: -2872272308995209779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_32
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1926
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247fa0ff57b9d7530800000000000000
+      internalID: 3854407787191400258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_33
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 1922
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade8e8c96aec67350800000000000000
+      internalID: 6014221567386357466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1710
+        width: 119
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3fd0a095b0ad100800000000000000
+      internalID: 133431616009532374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_35
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1707
+        width: 123
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5680eaa36c81a90800000000000000
+      internalID: -7342901237097405018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_36
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1720
+        width: 123
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beeaf8a955310760800000000000000
+      internalID: 7422272320086666936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_37
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 980
+        width: 875
+        height: 898
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf75c32788acf8ad0800000000000000
+      internalID: -2697714964390717445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_38
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1605
+        width: 83
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649ad5a3b204b09f0800000000000000
+      internalID: -501236379114690234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_39
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1602
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bc497d2a1a88610800000000000000
+      internalID: 1623725386440690434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_40
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1608
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d84098b420ccd1f0800000000000000
+      internalID: -1018728151744755501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1428
+        width: 475
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15d5ba40a8ef2980800000000000000
+      internalID: -8561368591462181604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_42
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1349
+        width: 447
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba66c387530994700800000000000000
+      internalID: 525109390890264235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_43
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1261
+        width: 465
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29728bf8eb2df3e30800000000000000
+      internalID: 4485535469781133202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ludum Dare Graphics_44
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 9
+        width: 918
+        height: 961
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee1d3442edac47f0800000000000000
+      internalID: -626935060792271128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

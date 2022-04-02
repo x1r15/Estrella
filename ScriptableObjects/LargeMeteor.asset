@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1592adf24d50d6547b153377302032ba, type: 3}
+  m_Name: LargeMeteor
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 26802060139057639, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
+  - {fileID: 8322701703211148827, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
+  SpritesFG:
+  - {fileID: -3621744487934183821, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
+  - {fileID: -3380474349092991758, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
+  SpritesBG:
+  - {fileID: -7852088694026309025, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
+  - {fileID: -4097355314751484911, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
+  Damage: 20
+  SpeedModificator: 1
