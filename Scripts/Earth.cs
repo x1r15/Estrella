@@ -16,6 +16,7 @@ public class Earth : MonoBehaviour
     private Animator _animator;
     private Transform _selfTransform;
     private CircleCollider2D _collider;
+    private SoundManager _soundManager;
     
     private static readonly int DamagedTrigger = Animator.StringToHash("Damaged");
     private static readonly int DestroyedTrigger = Animator.StringToHash("Destroyed");
@@ -36,6 +37,11 @@ public class Earth : MonoBehaviour
         _animator = GetComponent<Animator>();
         _collider = GetComponent<CircleCollider2D>();
         _selfTransform = transform;
+    }
+
+    private void Start()
+    {
+        _soundManager = ServiceLocator.Get<SoundManager>();
     }
 
     private void Update()
@@ -59,6 +65,7 @@ public class Earth : MonoBehaviour
     private void Destroy()
     {
         OnDestroyed?.Invoke();
+        _soundManager.Play(SoundManager.Sounds.EarthDestroyed);
         StartCoroutine(SpawnExplosion());
         _animator.SetTrigger(DestroyedTrigger);
     }
@@ -80,6 +87,11 @@ public class Earth : MonoBehaviour
     private IEnumerator UltimateSuperUberAttack()
     {
         var meteors = Meteor.All.ToList();
+        if (meteors.Count > 0)
+        {
+            _soundManager.Play(SoundManager.Sounds.RocketLaunch);
+        }
+
         foreach (var meteor in meteors)
         {
             var rocket = Instantiate(_rocket, GetRandomEarthPosition(), Quaternion.identity);

@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 
     private List<IControlledGameService> _controlledServices = new List<IControlledGameService>();
     private Earth _earth;
+    private SoundManager _soundManager;
 
     [SerializeField]
     private CanvasGroup _startPanel;
@@ -22,6 +23,10 @@ public class GameManager : MonoBehaviour
 
     private static readonly int StartTrigger = Animator.StringToHash("Start");
 
+    private void Awake()
+    {
+        _soundManager = ServiceLocator.Get<SoundManager>();
+    }
     private void Start()
     {
         _earth = ServiceLocator.Get<Earth>();
@@ -52,7 +57,12 @@ public class GameManager : MonoBehaviour
         {
             meteor.Destroy();
         }
-        Destroy(Ufo.Instance.gameObject);
+
+        if (Ufo.Instance != null)
+        {
+            Destroy(Ufo.Instance.gameObject);   
+        }
+        
         _endGamePanel.GetComponentInChildren<UI_LearnMoreButton>().SetTerm();
         _endGamePanel.GetComponentInChildren<UI_AchievedScore>().SetScore();
         StartCoroutine(_endGamePanel.FadeIn());
@@ -61,6 +71,7 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
+        _soundManager.Play(SoundManager.Sounds.ButtonClicked);
         if (State == GameState.Finished)
         {
             _earth.Reset();

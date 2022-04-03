@@ -42,7 +42,7 @@ public class Rocket : MonoBehaviour
     {
         if (other.gameObject == _target.gameObject)
         {
-            Destroy(_target.gameObject);
+            _target.GetComponent<Meteor>().Destroy();
             Destroy();
         }
     }

@@ -24,5 +24,5 @@ MonoBehaviour:
   - {fileID: -2872272308995209779, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
   - {fileID: 3854407787191400258, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
   - {fileID: 6014221567386357466, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
-  Damage: 5
+  Damage: 100
   SpeedModificator: 2

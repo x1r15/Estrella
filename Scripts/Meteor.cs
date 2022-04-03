@@ -8,6 +8,7 @@ public class Meteor : MonoBehaviour, IAction
     
     private Rigidbody2D _rigidbody;
     private Earth _earth;
+    private SoundManager _soundManager;
     
     private int _damage;
     private float _initialForce;
@@ -31,14 +32,14 @@ public class Meteor : MonoBehaviour, IAction
     private void Start()
     {
         All.Add(this);
+        _soundManager = ServiceLocator.Get<SoundManager>();
         _earth = ServiceLocator.Get<Earth>();
         SetInitialDirection();
     }
 
     public void Act()
     {
-        Instantiate(_explosion, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        Destroy();
     }
 
     private void SetInitialDirection()
@@ -61,6 +62,7 @@ public class Meteor : MonoBehaviour, IAction
 
     public void Destroy()
     {
+        _soundManager.Play(SoundManager.Sounds.Explosion);
         Instantiate(_explosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
