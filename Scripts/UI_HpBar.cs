@@ -14,7 +14,7 @@ public class UI_HpBar : MonoBehaviour
     private void Start()
     {
         _initialWidth = _rectTransform.rect.width;
-        ServiceLocator.Get<Earth>().OnDamage += Earth_OnDamage;
+        ServiceLocator.Get<Earth>().OnHealthChange += Earth_OnHealthChange;
     }
 
     private void SetNewWidth(int newHp)
@@ -23,7 +23,7 @@ public class UI_HpBar : MonoBehaviour
         _rectTransform.sizeDelta = new Vector2(newWidth, _rectTransform.rect.height);
     }
 
-    private void Earth_OnDamage(object sender, DamageEventArgs args)
+    private void Earth_OnHealthChange(object sender, HealthChangeEventArgs args)
     {
         SetNewWidth(args.HpLeft);
     }

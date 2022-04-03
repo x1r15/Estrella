@@ -7,7 +7,6 @@ public class LifeText : MonoBehaviour
     private string _expectedText;
     private string _textInput = "";
     private InputManager _inputManager;
-    private Vocabulary _vocabulary;
     private bool _completed;
 
     private void Awake()

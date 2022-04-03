@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class DamageEventArgs : EventArgs
+public class HealthChangeEventArgs : EventArgs
 {
     public int DamageTaken;
     public int HpLeft;

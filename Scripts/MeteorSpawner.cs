@@ -7,6 +7,10 @@ public class MeteorSpawner : MonoBehaviour, IControlledGameService
     public float MinInitialForce = 10f;
     public float MaxInitialForce = 20f;
 
+    private float _cachedSpawningRate;
+    private float _cachedMinInitialForce;
+    private float _cachedMaxInitialForce;
+
     [SerializeField]
     private GameObject _meteor;
 
@@ -27,6 +31,10 @@ public class MeteorSpawner : MonoBehaviour, IControlledGameService
     }
     private void Start()
     {
+        _cachedSpawningRate = SpawningRate;
+        _cachedMaxInitialForce = MaxInitialForce;
+        _cachedMinInitialForce = MinInitialForce;
+        
         _positionZero = 
             Camera.main.ScreenToWorldPoint(new Vector3(0, Screen.height + 150))
                 .WithAxis(Axis.Z, 0);
@@ -88,6 +96,13 @@ public class MeteorSpawner : MonoBehaviour, IControlledGameService
         {
             StopCoroutine(_spawningJob);            
         }
+    }
 
+    public void Reset()
+    {
+        SpawningRate = _cachedSpawningRate;
+        MaxInitialForce = _cachedMaxInitialForce;
+        MinInitialForce = _cachedMinInitialForce;
+        Enable();
     }
 }

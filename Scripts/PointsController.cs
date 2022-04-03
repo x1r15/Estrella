@@ -8,7 +8,8 @@ public class PointsController : MonoBehaviour, IControlledGameService
     private float _yearLength = 1f;
     
     private Coroutine _increaseYearJob;
-    private int _year = 2020;
+
+    public int Year { get; private set; } = DateTime.Now.Year;
 
     public event Action<int> OnNewYear;
 
@@ -30,10 +31,17 @@ public class PointsController : MonoBehaviour, IControlledGameService
         }
     }
 
+    public void Reset()
+    {
+        Year = DateTime.Now.Year;
+        OnNewYear?.Invoke(Year);
+        Enable();
+    }
+
     private IEnumerator IncreaseYear()
     {
-        _year++;
-        OnNewYear?.Invoke(_year);
+        Year++;
+        OnNewYear?.Invoke(Year);
         yield return new WaitForSeconds(_yearLength);
         _increaseYearJob = StartCoroutine(IncreaseYear());
     }

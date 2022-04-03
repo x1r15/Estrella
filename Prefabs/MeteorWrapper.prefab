@@ -135,6 +135,7 @@ MonoBehaviour:
   _spriteFgRenderer: {fileID: 1780985085230237818}
   _spriteBgRenderer: {fileID: 1780985086166195640}
   _rocket: {fileID: 4215507753710880244, guid: f8b015baa43017b48bc3b6f09f248798, type: 3}
+  _explosion: {fileID: 829099243131134614, guid: 3f115a1a2b27e8843a1b9cc4beffacfc, type: 3}
 --- !u!50 &1780985084422636704
 Rigidbody2D:
   serializedVersion: 4
@@ -5550,7 +5551,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 0.70812213, b: 0.2216981, a: 1}
   m_Intensity: 3
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: d954c2db
+  m_ApplyToSortingLayers: d954c2db00000000
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0

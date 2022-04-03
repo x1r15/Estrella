@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Meteor : MonoBehaviour, IAction
 {
+    public static List<Meteor> All = new List<Meteor>();
+    
     private Rigidbody2D _rigidbody;
     private Earth _earth;
     
@@ -21,21 +24,24 @@ public class Meteor : MonoBehaviour, IAction
     [SerializeField]
     private GameObject _rocket;
 
+    [SerializeField]
+    private GameObject _explosion;
+
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
     }
     private void Start()
     {
+        All.Add(this);
         _earth = ServiceLocator.Get<Earth>();
         SetInitialDirection();
     }
 
     public void Act()
     {
-        var rocket = Instantiate(_rocket, _earth.transform.position, Quaternion.identity);
-        rocket.GetComponent<Rocket>().Init(transform);
-        
+        Instantiate(_explosion, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
     private void SetInitialDirection()
@@ -52,8 +58,19 @@ public class Meteor : MonoBehaviour, IAction
         if (other.collider.gameObject == _earth.gameObject)
         {
             _earth.Damage(_damage);
-            Destroy(gameObject);
+            Destroy();
         }
+    }
+
+    public void Destroy()
+    {
+        Instantiate(_explosion, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        All.Remove(this);
     }
 
     public void Init(float initialForce, int damage, SpriteSet spriteSet)

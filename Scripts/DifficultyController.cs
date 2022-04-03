@@ -47,4 +47,9 @@ public class DifficultyController : MonoBehaviour, IControlledGameService
             StopCoroutine(_increaseDifficultyLoopJob);
         }
     }
+
+    public void Reset()
+    {
+        Enable();
+    }
 }
