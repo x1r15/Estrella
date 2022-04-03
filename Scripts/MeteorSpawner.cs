@@ -61,7 +61,7 @@ public class MeteorSpawner : MonoBehaviour, IControlledGameService
 
     private void PointsController_OnNewYear(int year)
     {
-        if (year % 30 == 0)
+        if (year % 50 == 0)
         {
             var ufo = Instantiate(_ufo,
                 _positionMiddleOfTheScreen.WithAxis(Axis.X, _positionZero.x - 2 * Margin),

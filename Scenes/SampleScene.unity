@@ -3611,7 +3611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a37f858d634624dae24d95facff113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _increaseDifficultyEverySeconds: 3
+  _increaseDifficultyEverySeconds: 5
 --- !u!114 &1393100035
 MonoBehaviour:
   m_ObjectHideFlags: 0
