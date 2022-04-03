@@ -9,6 +9,9 @@ public class Rocket : MonoBehaviour
     [SerializeField]
     private float _thrust;
 
+    [SerializeField]
+    private GameObject _explosion;
+
     public void Init(Transform target)
     {
         _target = target;
@@ -21,11 +24,18 @@ public class Rocket : MonoBehaviour
 
     void Update()
     {
-        var relativePos = _target.position - transform.position;
-        var desiredUp = new Vector3(relativePos.y, -relativePos.x, 0) * Mathf.Sign(-relativePos.x);
-        var rotation = Quaternion.LookRotation (-Vector3.forward, desiredUp);
-        transform.rotation = rotation;
-        _rigidbody.AddForce(_thrust * relativePos.normalized, ForceMode2D.Force);
+        try
+        {
+            var relativePos = _target.position - transform.position;
+            var desiredUp = new Vector3(relativePos.y, -relativePos.x, 0) * Mathf.Sign(-relativePos.x);
+            var rotation = Quaternion.LookRotation(-Vector3.forward, desiredUp);
+            transform.rotation = rotation;
+            _rigidbody.AddForce(_thrust * relativePos.normalized, ForceMode2D.Force);
+        }
+        catch (MissingReferenceException _)
+        {
+            Destroy();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -33,7 +43,13 @@ public class Rocket : MonoBehaviour
         if (other.gameObject == _target.gameObject)
         {
             Destroy(_target.gameObject);
-            Destroy(gameObject);
+            Destroy();
         }
+    }
+
+    private void Destroy()
+    {
+        Instantiate(_explosion, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }

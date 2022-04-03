@@ -76,7 +76,7 @@ TrailRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -608021287
   m_SortingLayer: -1
-  m_SortingOrder: -1
+  m_SortingOrder: -8
   m_Time: 2
   m_Parameters:
     serializedVersion: 3
@@ -155,7 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee77289b6e006b948bbcd01348e19c94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _thrust: 10
+  _thrust: 3
+  _explosion: {fileID: 829099243131134614, guid: 3f115a1a2b27e8843a1b9cc4beffacfc, type: 3}
 --- !u!50 &3514676545759544750
 Rigidbody2D:
   serializedVersion: 4
@@ -261,9 +262,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -608021287
+  m_SortingLayer: -1
+  m_SortingOrder: -5
   m_Sprite: {fileID: 3567943070148108834, guid: d894241be7cf7e5469d7861cdb124821, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

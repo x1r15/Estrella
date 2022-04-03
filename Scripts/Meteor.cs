@@ -22,9 +22,6 @@ public class Meteor : MonoBehaviour, IAction
     private SpriteRenderer _spriteBgRenderer;
 
     [SerializeField]
-    private GameObject _rocket;
-
-    [SerializeField]
     private GameObject _explosion;
 
     private void Awake()
@@ -48,7 +45,7 @@ public class Meteor : MonoBehaviour, IAction
     {
         var point = Random.insideUnitCircle;
         var targetPosition = 
-            _earth.transform.position.ToVector2() + point * _earth.GetComponent<CircleCollider2D>().radius;
+            _earth.transform.position.ToVector2() + point * (_earth.GetComponent<CircleCollider2D>().radius / 1.5f);
         var dir = (targetPosition - transform.position.ToVector2()).normalized;
         _rigidbody.AddForce(dir * _initialForce);
     }

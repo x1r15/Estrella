@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -25,6 +26,9 @@ public class Earth : MonoBehaviour
 
     [SerializeField]
     private GameObject _explosion;
+
+    [SerializeField]
+    private GameObject _rocket;
 
     private void Awake()
     {
@@ -67,6 +71,24 @@ public class Earth : MonoBehaviour
         _animator.SetTrigger(ResetTrigger);
     }
 
+    public void InitUltimateSuperUberAttack()
+    {
+        StartCoroutine(UltimateSuperUberAttack());
+    }
+
+    [ContextMenu("SuperUberAttack")]
+    private IEnumerator UltimateSuperUberAttack()
+    {
+        var meteors = Meteor.All.ToList();
+        foreach (var meteor in meteors)
+        {
+            var rocket = Instantiate(_rocket, GetRandomEarthPosition(), Quaternion.identity);
+            var rocketScript = rocket.GetComponent<Rocket>();
+            rocketScript.Init(meteor.transform);
+            yield return new WaitForSeconds(0.2f);
+        }
+    }
+
     private IEnumerator SpawnExplosion()
     {
         while (IsDestroyed)
@@ -77,5 +99,11 @@ public class Earth : MonoBehaviour
             Instantiate(_explosion, targetPosition, Quaternion.identity);
             yield return new WaitForSeconds(0.05f);
         }
+    }
+
+    private Vector2 GetRandomEarthPosition()
+    {
+        var point = Random.insideUnitCircle;
+        return _selfTransform.position.ToVector2() + point * _collider.radius;
     }
 }

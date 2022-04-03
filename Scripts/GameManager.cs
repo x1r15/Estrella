@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public GameState State { get; } = GameState.InProgress;
+    public GameState State { get; private set; } = GameState.NotStarted;
 
     private List<IControlledGameService> _controlledServices = new List<IControlledGameService>();
     private Earth _earth;
 
     [SerializeField]
-    private CanvasGroup _menuPanel;
+    private CanvasGroup _startPanel;
 
     [SerializeField]
     private CanvasGroup _endGamePanel;
@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour
     private CanvasGroup _gameElementsPanel;
 
     [SerializeField]
-    private CanvasGroup _startGamePanel;
+    private CanvasGroup _readyStartPanel;
+
+    private static readonly int StartTrigger = Animator.StringToHash("Start");
 
     private void Start()
     {
@@ -27,14 +29,20 @@ public class GameManager : MonoBehaviour
         _controlledServices.Add(ServiceLocator.Get<DifficultyController>());
         _controlledServices.Add(ServiceLocator.Get<MeteorSpawner>());
         _controlledServices.Add(ServiceLocator.Get<PointsController>());
-        foreach (var controlledGameService in _controlledServices)
+        StartCoroutine(_startPanel.FadeIn());
+    }
+
+    private void Update()
+    {
+        if (State == GameState.NotStarted && _startPanel.alpha.Equals(1f) && Input.anyKeyDown)
         {
-            controlledGameService.Enable();
+            ResetGame();
         }
     }
 
     private void Earth_OnDestroyed()
     {
+        State = GameState.Finished;
         foreach (var controlledGameService in _controlledServices)
         {
             controlledGameService.Disable();
@@ -44,6 +52,7 @@ public class GameManager : MonoBehaviour
         {
             meteor.Destroy();
         }
+        Destroy(Ufo.Instance.gameObject);
         _endGamePanel.GetComponentInChildren<UI_LearnMoreButton>().SetTerm();
         _endGamePanel.GetComponentInChildren<UI_AchievedScore>().SetScore();
         StartCoroutine(_endGamePanel.FadeIn());
@@ -52,15 +61,22 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
+        if (State == GameState.Finished)
+        {
+            _earth.Reset();
+        }
+        State = GameState.InProgress;
+
         foreach (var controlledGameService in _controlledServices)
         {
             controlledGameService.Reset();
         }
 
-        _earth.Reset();
-        StartCoroutine(_endGamePanel.FadeOut());
+        
+        StartCoroutine(_startPanel.FadeOut());
         StartCoroutine(_gameElementsPanel.FadeIn());
-        _startGamePanel.GetComponent<Animator>().SetTrigger("Reset");
+        StartCoroutine(_endGamePanel.FadeOut());
+        _readyStartPanel.GetComponent<Animator>().SetTrigger(StartTrigger);
     }
 }
 
